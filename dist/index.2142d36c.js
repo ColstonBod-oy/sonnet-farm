@@ -871,20 +871,28 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 var _indexCss = require("./../css/index.css");
-_reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElement("h1", {
+var _app = require("./App");
+var _appDefault = parcelHelpers.interopDefault(_app);
+_reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.StrictMode, {
     __source: {
-        fileName: "D:\\Project Files\\Web Development\\sonnet-farm\\src\\js\\index.js",
-        lineNumber: 5
+        fileName: "D:\\sonnet-farm\\src\\js\\index.js",
+        lineNumber: 7
     },
     __self: undefined
-}, "Hello world!"), document.getElementById("root"));
+}, /*#__PURE__*/ _reactDefault.default.createElement(_appDefault.default, {
+    __source: {
+        fileName: "D:\\sonnet-farm\\src\\js\\index.js",
+        lineNumber: 8
+    },
+    __self: undefined
+})), document.getElementById("root"));
 
   helpers.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","react-dom":"2sg1U","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./../css/index.css":"3hX5N"}],"3b2NM":[function(require,module,exports) {
+},{"react":"3b2NM","react-dom":"2sg1U","./../css/index.css":"rbTpg","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./App":"1Ucmn"}],"3b2NM":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
@@ -21833,7 +21841,7 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"367CR":[function(require,module,exports) {
+},{}],"rbTpg":[function() {},{}],"367CR":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -21985,6 +21993,51 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"592mh"}],"3hX5N":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
+},{"react-refresh/runtime":"592mh"}],"1Ucmn":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _appCss = require("./../css/App.css");
+function App() {
+    return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "App",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 6
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("header", {
+        className: "App-header",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 7
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 8
+        },
+        __self: this
+    }, "React App"))));
+}
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR","react":"3b2NM","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./../css/App.css":"6v4ok"}],"6v4ok":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
 
 //# sourceMappingURL=index.2142d36c.js.map
