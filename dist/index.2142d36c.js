@@ -892,7 +892,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElemen
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","react-dom":"2sg1U","./../css/index.css":"rbTpg","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./App":"1Ucmn"}],"3b2NM":[function(require,module,exports) {
+},{"react":"3b2NM","react-dom":"2sg1U","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./App":"1Ucmn","./../css/index.css":"rbTpg"}],"3b2NM":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
@@ -21841,7 +21841,7 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"rbTpg":[function() {},{}],"367CR":[function(require,module,exports) {
+},{}],"367CR":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -22094,15 +22094,22 @@ function Navigation() {
     }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
         alt: "",
         src: _logoSvgDefault.default,
-        width: "30",
-        height: "30",
-        className: "d-inline-block align-top",
+        width: "66.72",
+        height: "51.04",
+        className: "d-inline-block align-middle",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 12
         },
         __self: this
-    }), " ", "React Bootstrap")))));
+    }), " ", /*#__PURE__*/ _reactDefault.default.createElement("span", {
+        className: "brand-text",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
+            lineNumber: 19
+        },
+        __self: this
+    }, "Sonnet Farm"))))));
 }
 _c = Navigation;
 exports.default = Navigation;
@@ -24944,6 +24951,6 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
+},{}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
 
 //# sourceMappingURL=index.2142d36c.js.map

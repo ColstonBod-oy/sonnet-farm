@@ -1727,12 +1727,17 @@ progress {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: calc(1.265rem + 0.18vw);
   text-decoration: none;
   white-space: nowrap;
+}
+@media (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
 }
 .navbar-nav {
   display: flex;
@@ -2029,13 +2034,17 @@ progress {
 
 .App-header {
   background-color: #282c34;
-  min-height: calc(100vh - 56px);
+  min-height: calc(100vh - 73.41px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.brand-text {
+  font-family: nunito, sans-serif;
 }
 
 /*# sourceMappingURL=App.css.map */

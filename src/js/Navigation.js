@@ -12,11 +12,11 @@ function Navigation() {
 						<img
 							alt=""
 							src={logo}
-							width="30"
-							height="30"
-							className="d-inline-block align-top"
+							width="66.72"
+							height="51.04"
+							className="d-inline-block align-middle"
 						/>{" "}
-						React Bootstrap
+						<span className="brand-text">Sonnet Farm</span>
 					</Navbar.Brand>
 				</Container>
 			</Navbar>
