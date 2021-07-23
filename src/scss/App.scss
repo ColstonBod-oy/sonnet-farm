@@ -16,5 +16,25 @@
 }
 
 .brand-text {
+	color: #eeeeee;
 	font-family: nunito, sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.carousel-item {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.carousel-caption {
+	color: #eeeeee;
+	font-family: amaranth, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	bottom: initial;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-text-stroke: 1px black;
 }
