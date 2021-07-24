@@ -22123,7 +22123,7 @@ function Navigation() {
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement(_navDefault.default, {
-        className: "me-auto",
+        className: "me-auto text-center",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 24
