@@ -8,9 +8,6 @@ function App() {
 		<div className="App">
 			<Navigation />
 			<Slider />
-			<header className="App-header">
-				<h1>React App</h1>
-			</header>
 		</div>
 	);
 }

@@ -22029,20 +22029,7 @@ function App() {
             lineNumber: 10
         },
         __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement("header", {
-        className: "App-header",
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 11
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 12
-        },
-        __self: this
-    }, "React App"))));
+    })));
 }
 _c = App;
 exports.default = App;
@@ -26796,6 +26783,12 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _container = require("react-bootstrap/Container");
+var _containerDefault = parcelHelpers.interopDefault(_container);
+var _row = require("react-bootstrap/Row");
+var _rowDefault = parcelHelpers.interopDefault(_row);
+var _col = require("react-bootstrap/Col");
+var _colDefault = parcelHelpers.interopDefault(_col);
 var _carousel = require("react-bootstrap/Carousel");
 var _carouselDefault = parcelHelpers.interopDefault(_carousel);
 var _slide1Png = require("url:../images/slide1.png");
@@ -26805,17 +26798,51 @@ var _slide2PngDefault = parcelHelpers.interopDefault(_slide2Png);
 var _slide3Png = require("url:../images/slide3.png");
 var _slide3PngDefault = parcelHelpers.interopDefault(_slide3Png);
 function Slider() {
-    return(/*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default, {
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_containerDefault.default, {
+        fluid: true,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 9
+            lineNumber: 12
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+        className: "slider-row",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 13
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 14
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "d-flex flex-column h-100",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 15
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 16
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default, {
+        className: "px-0",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 17
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
         interval: 1000,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 10
+            lineNumber: 18
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
@@ -26824,62 +26851,7 @@ function Slider() {
         alt: "First slide",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 11
-        },
-        __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 12
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 13
-        },
-        __self: this
-    }, "Organically Grown Pineapples"))), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
-        interval: 500,
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 16
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
-        className: "d-block w-100",
-        src: _slide2PngDefault.default,
-        alt: "Second slide",
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 17
-        },
-        __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 18
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 19
-        },
-        __self: this
-    }, "Stress-Free Raised Pigs"))), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 22
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
-        className: "d-block w-100",
-        src: _slide3PngDefault.default,
-        alt: "Third slide",
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 23
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
@@ -26894,7 +26866,97 @@ function Slider() {
             lineNumber: 25
         },
         __self: this
-    }, "Free Range Chickens")))));
+    }, "Organically Grown Pineapples"))), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
+        interval: 500,
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 28
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        className: "d-block w-100",
+        src: _slide2PngDefault.default,
+        alt: "Second slide",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 29
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 34
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 35
+        },
+        __self: this
+    }, "Stress-Free Raised Pigs"))), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 38
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        className: "d-block w-100",
+        src: _slide3PngDefault.default,
+        alt: "Third slide",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 39
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 44
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 45
+        },
+        __self: this
+    }, "Free Range Chickens"))))), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+        className: "flex-grow-1",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 50
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "jumbotron",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 51
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        className: "jumbotron-display mb-3",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 52
+        },
+        __self: this
+    }, "Fluid jumbotron"), /*#__PURE__*/ _reactDefault.default.createElement("p", {
+        className: "jumbotron-lead mb-1",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 53
+        },
+        __self: this
+    }, "Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read."), /*#__PURE__*/ _reactDefault.default.createElement("p", {
+        className: "jumbotron-lead",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 59
+        },
+        __self: this
+    }, "And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here."))))))));
 }
 _c = Slider;
 exports.default = Slider;
@@ -26906,7 +26968,7 @@ $RefreshReg$(_c, "Slider");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","react-bootstrap/Carousel":"2Zcjk","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","url:../images/slide1.png":"0O6NY","url:../images/slide2.png":"4PyIH","url:../images/slide3.png":"2L5Ac"}],"2Zcjk":[function(require,module,exports) {
+},{"react":"3b2NM","react-bootstrap/Carousel":"2Zcjk","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","url:../images/slide1.png":"0O6NY","url:../images/slide2.png":"4PyIH","url:../images/slide3.png":"2L5Ac","react-bootstrap/Container":"3Mt3t","react-bootstrap/Row":"3fzwD","react-bootstrap/Col":"2D0r8"}],"2Zcjk":[function(require,module,exports) {
 "use strict";
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 exports.__esModule = true;
@@ -27571,6 +27633,148 @@ module.exports = require('./bundle-url').getBundleURL() + "slide2.38bb2f2a.png";
 },{"./bundle-url":"3seVR"}],"2L5Ac":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "slide3.fb0604c4.png";
 
-},{"./bundle-url":"3seVR"}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
+},{"./bundle-url":"3seVR"}],"3fzwD":[function(require,module,exports) {
+"use strict";
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+exports.__esModule = true;
+exports.default = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var React = _interopRequireWildcard(require("react"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(nodeInterop) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function(nodeInterop1) {
+        return nodeInterop1 ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
+        default: obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {
+    };
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj.default = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+const DEVICE_SIZES = [
+    'xxl',
+    'xl',
+    'lg',
+    'md',
+    'sm',
+    'xs'
+];
+const Row = /*#__PURE__*/ React.forwardRef(({ bsPrefix , className , // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = 'div' , ...props }, ref)=>{
+    const decoratedBsPrefix = _ThemeProvider.useBootstrapPrefix(bsPrefix, 'row');
+    const sizePrefix = `${decoratedBsPrefix}-cols`;
+    const classes = [];
+    DEVICE_SIZES.forEach((brkPoint)=>{
+        const propValue = props[brkPoint];
+        delete props[brkPoint];
+        let cols;
+        if (propValue != null && typeof propValue === 'object') ({ cols  } = propValue);
+        else cols = propValue;
+        const infix = brkPoint !== 'xs' ? `-${brkPoint}` : '';
+        if (cols != null) classes.push(`${sizePrefix}${infix}-${cols}`);
+    });
+    return(/*#__PURE__*/ _jsxRuntime.jsx(Component, {
+        ref: ref,
+        ...props,
+        className: _classnames.default(className, decoratedBsPrefix, ...classes)
+    }));
+});
+Row.displayName = 'Row';
+var _default = Row;
+exports.default = _default;
+module.exports = exports.default;
+
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","./ThemeProvider":"4rz1S","react/jsx-runtime":"7jBZW"}],"2D0r8":[function(require,module,exports) {
+"use strict";
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+exports.__esModule = true;
+exports.default = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var React = _interopRequireWildcard(require("react"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(nodeInterop) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function(nodeInterop1) {
+        return nodeInterop1 ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
+        default: obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {
+    };
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj.default = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+const DEVICE_SIZES = [
+    'xxl',
+    'xl',
+    'lg',
+    'md',
+    'sm',
+    'xs'
+];
+const Col = /*#__PURE__*/ React.forwardRef(({ bsPrefix , className , as: Component = 'div' , ...props }, ref)=>{
+    const prefix = _ThemeProvider.useBootstrapPrefix(bsPrefix, 'col');
+    const spans = [];
+    const classes = [];
+    DEVICE_SIZES.forEach((brkPoint)=>{
+        const propValue = props[brkPoint];
+        delete props[brkPoint];
+        let span;
+        let offset;
+        let order;
+        if (typeof propValue === 'object' && propValue != null) ({ span =true , offset , order  } = propValue);
+        else span = propValue;
+        const infix = brkPoint !== 'xs' ? `-${brkPoint}` : '';
+        if (span) spans.push(span === true ? `${prefix}${infix}` : `${prefix}${infix}-${span}`);
+        if (order != null) classes.push(`order${infix}-${order}`);
+        if (offset != null) classes.push(`offset${infix}-${offset}`);
+    });
+    if (!spans.length) spans.push(prefix); // plain 'col'
+    return(/*#__PURE__*/ _jsxRuntime.jsx(Component, {
+        ...props,
+        ref: ref,
+        className: _classnames.default(className, ...spans, ...classes)
+    }));
+});
+Col.displayName = 'Col';
+var _default = Col;
+exports.default = _default;
+module.exports = exports.default;
+
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","./ThemeProvider":"4rz1S","react/jsx-runtime":"7jBZW"}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
 
 //# sourceMappingURL=index.2142d36c.js.map

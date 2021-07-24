@@ -2312,18 +2312,7 @@ progress {
 }
 
 .App {
-  text-align: center;
-}
-
-.App-header {
   background-color: #282c34;
-  min-height: calc(100vh - 73.41px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .brand-text {
@@ -2331,6 +2320,10 @@ progress {
   font-family: nunito, sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+.slider-row {
+  min-height: calc(100vh - 73.41px);
 }
 
 .carousel-item {
@@ -2348,6 +2341,28 @@ progress {
   top: 50%;
   transform: translateY(-50%);
   -webkit-text-stroke: 1px black;
+}
+
+.jumbotron {
+  font-size: 1.4rem;
+  padding: 2em 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+.jumbotron-display {
+  font-family: noto-sans-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jumbotron-lead {
+  font-size: 0.8rem;
+  font-family: noto-sans-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 
