@@ -2235,7 +2235,7 @@ progress {
 }
 
 .App {
-  background-color: #282c34;
+  background-color: #212529;
 }
 
 .brand-text {
@@ -2245,7 +2245,7 @@ progress {
   font-style: italic;
 }
 
-.slider-row {
+.homepage-row {
   min-height: calc(100vh - 73.41px);
 }
 
@@ -2267,7 +2267,7 @@ progress {
 }
 
 .jumbotron {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding: 2em 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -2282,9 +2282,16 @@ progress {
 }
 
 .jumbotron-lead {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   font-family: noto-sans-display, sans-serif;
   font-weight: 300;
+  font-style: normal;
+}
+
+.jumbotron-span {
+  font-size: 0.9rem;
+  font-family: noto-sans-display, sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
