@@ -2,7 +2,7 @@
 	"name": "sonnet-farm",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.html",
+	"main": "index.webmanifest",
 	"scripts": {
 		"start": "parcel serve ./src/index.html",
 		"build": "parcel build ./src/index.html"
