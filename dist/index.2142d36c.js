@@ -22017,65 +22017,103 @@ var _slider = require("./Slider");
 var _sliderDefault = parcelHelpers.interopDefault(_slider);
 var _jumbotron = require("./Jumbotron");
 var _jumbotronDefault = parcelHelpers.interopDefault(_jumbotron);
+var _about = require("./About");
+var _aboutDefault = parcelHelpers.interopDefault(_about);
+var _aboutImage = require("./AboutImage");
+var _aboutImageDefault = parcelHelpers.interopDefault(_aboutImage);
+var _contactMap = require("./ContactMap");
+var _contactMapDefault = parcelHelpers.interopDefault(_contactMap);
 function App() {
     return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "App",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 12
+            lineNumber: 15
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement(_navigationDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 13
+            lineNumber: 16
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement(_containerDefault.default, {
         fluid: true,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 14
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
-        className: "homepage-row",
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 15
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 16
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 17
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_sliderDefault.default, {
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 18
         },
         __self: this
-    })), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_sliderDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 20
+            lineNumber: 19
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_jumbotronDefault.default, {
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 21
         },
         __self: this
-    })))))));
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_jumbotronDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 22
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 24
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+        lg: 6,
+        className: "px-0",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 25
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 26
+        },
+        __self: this
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+        lg: 6,
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 28
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutImageDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 29
+        },
+        __self: this
+    }))), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 32
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_contactMapDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 33
+        },
+        __self: this
+    })))));
 }
 _c = App;
 exports.default = App;
@@ -22087,17 +22125,9 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR","react":"3b2NM","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./../css/App.css":"6v4ok","./Navigation":"2qm1a","./Slider":"3qMMZ","react-bootstrap/Container":"3Mt3t","react-bootstrap/Row":"3fzwD","react-bootstrap/Col":"2D0r8","./Jumbotron":"2EiTq"}],"6v4ok":[function() {},{}],"2qm1a":[function(require,module,exports) {
-var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-helpers.prelude(module);
-
-try {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR","react":"3b2NM","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./../css/App.css":"6v4ok","./Navigation":"2qm1a","./Slider":"3qMMZ","react-bootstrap/Container":"3Mt3t","react-bootstrap/Row":"3fzwD","react-bootstrap/Col":"2D0r8","./Jumbotron":"2EiTq","./About":"1v2QX","./AboutImage":"70NBT","./ContactMap":"3SAUf"}],"6v4ok":[function() {},{}],"2qm1a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
 var _nav = require("react-bootstrap/Nav");
 var _navDefault = parcelHelpers.interopDefault(_nav);
 var _navbar = require("react-bootstrap/Navbar");
@@ -22107,36 +22137,36 @@ var _containerDefault = parcelHelpers.interopDefault(_container);
 var _logoSvg = require("url:../logo.svg");
 var _logoSvgDefault = parcelHelpers.interopDefault(_logoSvg);
 function Navigation() {
-    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+    return(/*#__PURE__*/ React.createElement(React.Fragment, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
-            lineNumber: 9
+            lineNumber: 8
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_navbarDefault.default, {
         collapseOnSelect: true,
         expand: "lg",
         bg: "dark",
         variant: "dark",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
+            lineNumber: 9
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement(_containerDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 10
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_containerDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_navbarDefault.default.Brand, {
+        href: "#home",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 11
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default.Brand, {
-        href: "#home",
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
-            lineNumber: 12
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+    }, /*#__PURE__*/ React.createElement("img", {
         alt: "",
         src: _logoSvgDefault.default,
         width: "66.72",
@@ -22144,63 +22174,63 @@ function Navigation() {
         className: "d-inline-block align-middle",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
-            lineNumber: 13
+            lineNumber: 12
         },
         __self: this
-    }), " ", /*#__PURE__*/ _reactDefault.default.createElement("span", {
+    }), " ", /*#__PURE__*/ React.createElement("span", {
         className: "brand-text",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
-            lineNumber: 20
+            lineNumber: 19
         },
         __self: this
-    }, "Sonnet Farm")), /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default.Toggle, {
+    }, "Sonnet Farm")), /*#__PURE__*/ React.createElement(_navbarDefault.default.Toggle, {
         "aria-controls": "responsive-navbar-nav",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
+            lineNumber: 21
+        },
+        __self: this
+    }), /*#__PURE__*/ React.createElement(_navbarDefault.default.Collapse, {
+        id: "responsive-navbar-nav",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 22
         },
         __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default.Collapse, {
-        id: "responsive-navbar-nav",
+    }, /*#__PURE__*/ React.createElement(_navDefault.default, {
+        className: "me-auto text-center",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 23
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_navDefault.default, {
-        className: "me-auto text-center",
+    }, /*#__PURE__*/ React.createElement(_navDefault.default.Link, {
+        href: "#home",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 24
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_navDefault.default.Link, {
-        href: "#home",
+    }, "Home"), /*#__PURE__*/ React.createElement(_navDefault.default.Link, {
+        href: "#about",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 25
         },
         __self: this
-    }, "Home"), /*#__PURE__*/ _reactDefault.default.createElement(_navDefault.default.Link, {
-        href: "#about",
+    }, "About"), /*#__PURE__*/ React.createElement(_navDefault.default.Link, {
+        href: "#gallery",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 26
         },
         __self: this
-    }, "About"), /*#__PURE__*/ _reactDefault.default.createElement(_navDefault.default.Link, {
-        href: "#gallery",
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
-            lineNumber: 27
-        },
-        __self: this
-    }, "Gallery"), /*#__PURE__*/ _reactDefault.default.createElement(_navDefault.default.Link, {
+    }, "Gallery"), /*#__PURE__*/ React.createElement(_navDefault.default.Link, {
         href: "#contact",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
-            lineNumber: 28
+            lineNumber: 27
         },
         __self: this
     }, "Contact")))))));
@@ -22210,12 +22240,7 @@ exports.default = Navigation;
 var _c;
 $RefreshReg$(_c, "Navigation");
 
-  helpers.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"3b2NM","react-bootstrap/Navbar":"3qLFd","react-bootstrap/Container":"3Mt3t","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","url:../logo.svg":"J8evo","react-bootstrap/Nav":"3T3v1"}],"3qLFd":[function(require,module,exports) {
+},{"react-bootstrap/Navbar":"3qLFd","react-bootstrap/Container":"3Mt3t","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","url:../logo.svg":"J8evo","react-bootstrap/Nav":"3T3v1"}],"3qLFd":[function(require,module,exports) {
 "use strict";
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 exports.__esModule = true;
@@ -26819,16 +26844,8 @@ exports.default = _default;
 module.exports = exports.default;
 
 },{"react":"3b2NM"}],"3qMMZ":[function(require,module,exports) {
-var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-helpers.prelude(module);
-
-try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
 var _carousel = require("react-bootstrap/Carousel");
 var _carouselDefault = parcelHelpers.interopDefault(_carousel);
 var _slide1Png = require("url:../images/slide1.png");
@@ -26838,94 +26855,94 @@ var _slide2PngDefault = parcelHelpers.interopDefault(_slide2Png);
 var _slide3Png = require("url:../images/slide3.png");
 var _slide3PngDefault = parcelHelpers.interopDefault(_slide3Png);
 function Slider() {
-    return(/*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default, {
+    return(/*#__PURE__*/ React.createElement(_carouselDefault.default, {
         className: "px-0",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 8
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement(_carouselDefault.default.Item, {
+        interval: 1000,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 9
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
-        interval: 1000,
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 10
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+    }, /*#__PURE__*/ React.createElement("img", {
         className: "d-block w-100",
         src: _slide1PngDefault.default,
         alt: "First slide",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 10
+        },
+        __self: this
+    }), /*#__PURE__*/ React.createElement(_carouselDefault.default.Caption, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 11
         },
         __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
+    }, /*#__PURE__*/ React.createElement("h3", {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 12
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 13
-        },
-        __self: this
-    }, "Organically Grown Pineapples"))), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
+    }, "Organically Grown Pineapples"))), /*#__PURE__*/ React.createElement(_carouselDefault.default.Item, {
         interval: 500,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 16
+            lineNumber: 15
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+    }, /*#__PURE__*/ React.createElement("img", {
         className: "d-block w-100",
         src: _slide2PngDefault.default,
         alt: "Second slide",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 16
+        },
+        __self: this
+    }), /*#__PURE__*/ React.createElement(_carouselDefault.default.Caption, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 17
         },
         __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
+    }, /*#__PURE__*/ React.createElement("h3", {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 18
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+    }, "Stress-Free Raised Pigs"))), /*#__PURE__*/ React.createElement(_carouselDefault.default.Item, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 19
+            lineNumber: 21
         },
         __self: this
-    }, "Stress-Free Raised Pigs"))), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Item, {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 22
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+    }, /*#__PURE__*/ React.createElement("img", {
         className: "d-block w-100",
         src: _slide3PngDefault.default,
         alt: "Third slide",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
+            lineNumber: 22
+        },
+        __self: this
+    }), /*#__PURE__*/ React.createElement(_carouselDefault.default.Caption, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 23
         },
         __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_carouselDefault.default.Caption, {
+    }, /*#__PURE__*/ React.createElement("h3", {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
             lineNumber: 24
-        },
-        __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\Slider.js",
-            lineNumber: 25
         },
         __self: this
     }, "Free Range Chickens")))));
@@ -26935,12 +26952,7 @@ exports.default = Slider;
 var _c;
 $RefreshReg$(_c, "Slider");
 
-  helpers.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"3b2NM","react-bootstrap/Carousel":"2Zcjk","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","url:../images/slide1.png":"0O6NY","url:../images/slide2.png":"4PyIH","url:../images/slide3.png":"2L5Ac"}],"2Zcjk":[function(require,module,exports) {
+},{"react-bootstrap/Carousel":"2Zcjk","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","url:../images/slide1.png":"0O6NY","url:../images/slide2.png":"4PyIH","url:../images/slide3.png":"2L5Ac"}],"2Zcjk":[function(require,module,exports) {
 "use strict";
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 exports.__esModule = true;
@@ -27900,6 +27912,230 @@ var _default = Button;
 exports.default = _default;
 module.exports = exports.default;
 
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","./ThemeProvider":"4rz1S","./SafeAnchor":"5VP5o","react/jsx-runtime":"7jBZW"}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","./ThemeProvider":"4rz1S","./SafeAnchor":"5VP5o","react/jsx-runtime":"7jBZW"}],"1v2QX":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+function About() {
+    return(/*#__PURE__*/ React.createElement("div", {
+        className: "about",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\About.js",
+            lineNumber: 3
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement("h3", {
+        className: "about-title mb-4",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\About.js",
+            lineNumber: 4
+        },
+        __self: this
+    }, "About"), /*#__PURE__*/ React.createElement("p", {
+        className: "about-body",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\About.js",
+            lineNumber: 5
+        },
+        __self: this
+    }, "Sonnet Farm uses an Integrated Farming System, allowing crops and livestock to help sustain one another resulting in a more organic and ecological way of production.")));
+}
+_c = About;
+exports.default = About;
+var _c;
+$RefreshReg$(_c, "About");
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"70NBT":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _image = require("react-bootstrap/Image");
+var _imageDefault = parcelHelpers.interopDefault(_image);
+var _button = require("react-bootstrap/Button");
+var _buttonDefault = parcelHelpers.interopDefault(_button);
+var _fernPng = require("url:../images/fern.png");
+var _fernPngDefault = parcelHelpers.interopDefault(_fernPng);
+function AboutImage() {
+    return(/*#__PURE__*/ React.createElement("div", {
+        className: "about-image",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutImage.js",
+            lineNumber: 7
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement(_imageDefault.default, {
+        src: _fernPngDefault.default,
+        fluid: true,
+        rounded: true,
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutImage.js",
+            lineNumber: 8
+        },
+        __self: this
+    }), /*#__PURE__*/ React.createElement("span", {
+        className: "about-image-caption d-flex justify-content-evenly align-items-center",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutImage.js",
+            lineNumber: 9
+        },
+        __self: this
+    }, "Like what you see?", /*#__PURE__*/ React.createElement(_buttonDefault.default, {
+        variant: "primary",
+        className: "about-image-button",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutImage.js",
+            lineNumber: 11
+        },
+        __self: this
+    }, "See Gallery"))));
+}
+_c = AboutImage;
+exports.default = AboutImage;
+var _c;
+$RefreshReg$(_c, "AboutImage");
+
+},{"react-bootstrap/Image":"5qrP5","react-bootstrap/Button":"1ru0l","url:../images/fern.png":"4DllL","@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"5qrP5":[function(require,module,exports) {
+"use strict";
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+exports.__esModule = true;
+exports.default = exports.propTypes = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var React = _interopRequireWildcard(require("react"));
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(nodeInterop) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function(nodeInterop1) {
+        return nodeInterop1 ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
+        default: obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {
+    };
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj.default = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+const propTypes = {
+    /**
+   * @default 'img'
+   */ bsPrefix: _propTypes.default.string,
+    /**
+   * Sets image as fluid image.
+   */ fluid: _propTypes.default.bool,
+    /**
+   * Sets image shape as rounded.
+   */ rounded: _propTypes.default.bool,
+    /**
+   * Sets image shape as circle.
+   */ roundedCircle: _propTypes.default.bool,
+    /**
+   * Sets image shape as thumbnail.
+   */ thumbnail: _propTypes.default.bool
+};
+exports.propTypes = propTypes;
+const defaultProps = {
+    fluid: false,
+    rounded: false,
+    roundedCircle: false,
+    thumbnail: false
+};
+const Image1 = /*#__PURE__*/ React.forwardRef(({ bsPrefix , className , fluid , rounded , roundedCircle , thumbnail , ...props }, ref)=>{
+    bsPrefix = _ThemeProvider.useBootstrapPrefix(bsPrefix, 'img');
+    return(/*#__PURE__*/ _jsxRuntime.jsx("img", {
+        // eslint-disable-line jsx-a11y/alt-text
+        ref: ref,
+        ...props,
+        className: _classnames.default(className, fluid && `${bsPrefix}-fluid`, rounded && `rounded`, roundedCircle && `rounded-circle`, thumbnail && `${bsPrefix}-thumbnail`)
+    }));
+});
+Image1.displayName = 'Image';
+Image1.defaultProps = defaultProps;
+var _default = Image1;
+exports.default = _default;
+
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","prop-types":"4dfy5","./ThemeProvider":"4rz1S","react/jsx-runtime":"7jBZW"}],"4DllL":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "fern.57e7590d.png";
+
+},{"./bundle-url":"3seVR"}],"3SAUf":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const mapouterStyle = {
+    position: "relative",
+    textAlign: "right",
+    height: "100%",
+    width: "100%"
+};
+const gmap_canvasStyle = {
+    overflow: "hidden",
+    background: "none!important",
+    height: "100%",
+    width: "100%"
+};
+function ContactMap() {
+    return(/*#__PURE__*/ React.createElement("div", {
+        className: "mapouter",
+        style: mapouterStyle,
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            lineNumber: 17
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement("div", {
+        className: "gmap_canvas",
+        style: gmap_canvasStyle,
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            lineNumber: 18
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement("iframe", {
+        width: "100%",
+        height: "100%",
+        id: "gmap_canvas",
+        src: "https://maps.google.com/maps?q=amocao%20store,%20Sablan,%20Benguet&t=k&z=13&ie=UTF8&iwloc=&output=embed",
+        frameborder: "0",
+        scrolling: "no",
+        marginHeight: "0",
+        marginWidth: "0",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            lineNumber: 19
+        },
+        __self: this
+    }), /*#__PURE__*/ React.createElement("br", {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            lineNumber: 29
+        },
+        __self: this
+    }), /*#__PURE__*/ React.createElement("a", {
+        href: "https://www.embedgooglemap.net",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            lineNumber: 30
+        },
+        __self: this
+    }))));
+}
+_c = ContactMap;
+exports.default = ContactMap;
+var _c;
+$RefreshReg$(_c, "ContactMap");
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
 
 //# sourceMappingURL=index.2142d36c.js.map

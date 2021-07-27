@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import slide1 from "url:../images/slide1.png";
 import slide2 from "url:../images/slide2.png";

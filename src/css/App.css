@@ -2235,6 +2235,7 @@ progress {
 }
 
 .App {
+  min-height: 100vh;
   background-color: #212529;
 }
 
@@ -2245,16 +2246,11 @@ progress {
   font-style: italic;
 }
 
-.homepage-row {
-  min-height: calc(100vh - 73.41px);
-}
-
 .carousel-item {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
 .carousel-caption {
   color: #eeeeee;
   font-family: amaranth, sans-serif;
@@ -2274,25 +2270,53 @@ progress {
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
-
 .jumbotron-display {
   font-family: noto-sans-display, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-
 .jumbotron-lead {
   font-size: 1.1rem;
   font-family: noto-sans-display, sans-serif;
   font-weight: 300;
   font-style: normal;
 }
-
 .jumbotron-span {
   font-size: 0.9rem;
   font-family: noto-sans-display, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.about {
+  font-size: 1.8rem;
+  padding: 0 1em;
+  color: rgba(238, 238, 0, 0.75);
+}
+.about-title {
+  text-align: center;
+  font-family: ubuntu-mono, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.about-body {
+  font-size: 1rem;
+  font-family: ubuntu-mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.about-image {
+  color: rgba(238, 238, 0, 0.75);
+}
+.about-image-caption {
+  margin-top: 1em;
+  font-size: 1rem;
+  font-family: ubuntu-mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.about-image-button {
+  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=App.css.map */
