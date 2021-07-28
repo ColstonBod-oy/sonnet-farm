@@ -22178,7 +22178,7 @@ function Navigation() {
         },
         __self: this
     }), " ", /*#__PURE__*/ React.createElement("span", {
-        className: "brand-text",
+        className: "navbar-brand-text",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Navigation.js",
             lineNumber: 19
@@ -27971,7 +27971,7 @@ function AboutImage() {
         },
         __self: this
     }), /*#__PURE__*/ React.createElement("span", {
-        className: "about-image-caption d-flex justify-content-evenly align-items-center",
+        className: "about-image-caption d-flex justify-content-center align-items-center",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\AboutImage.js",
             lineNumber: 9
@@ -27985,7 +27985,7 @@ function AboutImage() {
             lineNumber: 11
         },
         __self: this
-    }, "See Gallery"))));
+    }, "View Gallery"))));
 }
 _c = AboutImage;
 exports.default = AboutImage;

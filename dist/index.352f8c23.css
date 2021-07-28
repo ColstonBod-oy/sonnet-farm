@@ -2311,12 +2311,47 @@ progress {
   color: #000;
 }
 
+.btn-primary {
+  color: #000;
+  background-color: rgba(238, 238, 0, 0.75);
+  border-color: rgba(238, 238, 0, 0.75);
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: rgba(242, 242, 58, 0.7875);
+  border-color: rgba(241, 241, 40, 0.775);
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #000;
+  background-color: rgba(242, 242, 58, 0.7875);
+  border-color: rgba(241, 241, 40, 0.775);
+  box-shadow: 0 0 0 0.25rem rgba(184, 184, 0, 0.5);
+}
+
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: rgba(243, 243, 75, 0.8);
+  border-color: rgba(241, 241, 40, 0.775);
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(184, 184, 0, 0.5);
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #000;
+  background-color: rgba(238, 238, 0, 0.75);
+  border-color: rgba(238, 238, 0, 0.75);
+}
+
 .App {
   min-height: 100vh;
   background-color: #212529;
 }
 
-.brand-text {
+.navbar-brand-text {
   color: #eeeeee;
   font-family: nunito, sans-serif;
   font-weight: 900;
@@ -2344,7 +2379,7 @@ progress {
   font-size: 1.5rem;
   padding: 2em 1em;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.8em;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
@@ -2383,6 +2418,7 @@ progress {
 }
 
 .about-body {
+  text-indent: 2em;
   font-size: 1rem;
   font-family: ubuntu-mono, monospace;
   font-weight: 400;
@@ -2390,12 +2426,13 @@ progress {
 }
 
 .about-image {
+  font-size: 1rem;
+  margin-bottom: 2.7em;
   color: rgba(238, 238, 0, 0.75);
 }
 
 .about-image-caption {
   margin-top: 1em;
-  font-size: 1rem;
   font-family: ubuntu-mono, monospace;
   font-weight: 400;
   font-style: normal;
@@ -2403,6 +2440,7 @@ progress {
 
 .about-image-button {
   font-size: 0.8rem;
+  margin-left: 1em;
 }
 
 

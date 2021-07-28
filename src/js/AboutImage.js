@@ -6,10 +6,10 @@ function AboutImage() {
 	return (
 		<div className="about-image">
 			<Image src={fern} fluid rounded />
-			<span className="about-image-caption d-flex justify-content-evenly align-items-center">
+			<span className="about-image-caption d-flex justify-content-center align-items-center">
 				Like what you see?
 				<Button variant="primary" className="about-image-button">
-					See Gallery
+					View Gallery
 				</Button>
 			</span>
 		</div>

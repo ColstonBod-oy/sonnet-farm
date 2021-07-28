@@ -16,7 +16,7 @@ function Navigation() {
 							height="51.04"
 							className="d-inline-block align-middle"
 						/>{" "}
-						<span className="brand-text">Sonnet Farm</span>
+						<span className="navbar-brand-text">Sonnet Farm</span>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">

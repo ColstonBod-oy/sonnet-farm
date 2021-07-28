@@ -17,3 +17,7 @@ $carousel-control-next-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w
 @import "../../node_modules/bootstrap/scss/grid";
 @import "../../node_modules/bootstrap/scss/navbar";
 @import "../../node_modules/bootstrap/scss/carousel";
+
+.btn-primary {
+	@include button-variant(rgba($yellow, 0.75), rgba($yellow, 0.75));
+}
