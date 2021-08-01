@@ -22019,10 +22019,10 @@ var _jumbotron = require("./Jumbotron");
 var _jumbotronDefault = parcelHelpers.interopDefault(_jumbotron);
 var _about = require("./About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
+var _aboutMap = require("./AboutMap");
+var _aboutMapDefault = parcelHelpers.interopDefault(_aboutMap);
 var _aboutImage = require("./AboutImage");
 var _aboutImageDefault = parcelHelpers.interopDefault(_aboutImage);
-var _contactMap = require("./ContactMap");
-var _contactMapDefault = parcelHelpers.interopDefault(_contactMap);
 function App() {
     return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "App",
@@ -22074,46 +22074,75 @@ function App() {
             lineNumber: 24
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
-        lg: 6,
-        className: "px-0",
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        className: "about-title mb-4",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 25
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutDefault.default, {
+    }, "About"), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+        lg: 6,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 26
         },
         __self: this
-    })), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
-        lg: 6,
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 27
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+        xs: 12,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 28
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutImageDefault.default, {
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 29
         },
         __self: this
-    }))), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+        xs: 12,
+        className: "about-map",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 31
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutMapDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 32
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_contactMapDefault.default, {
+    }))), /*#__PURE__*/ _reactDefault.default.createElement("p", {
+        className: "about-map-caption",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
-            lineNumber: 33
+            lineNumber: 35
         },
         __self: this
-    })))));
+    }, "Sonnet Farm is located near \"Amocao Store, Sablan, Benguet\"")), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+        lg: 6,
+        className: "d-lg-flex align-items-center",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 39
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutImageDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 40
+        },
+        __self: this
+    }))))));
 }
 _c = App;
 exports.default = App;
@@ -22125,7 +22154,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR","react":"3b2NM","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./../css/App.css":"6v4ok","./Navigation":"2qm1a","./Slider":"3qMMZ","react-bootstrap/Container":"3Mt3t","react-bootstrap/Row":"3fzwD","react-bootstrap/Col":"2D0r8","./Jumbotron":"2EiTq","./About":"1v2QX","./AboutImage":"70NBT","./ContactMap":"3SAUf"}],"6v4ok":[function() {},{}],"2qm1a":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR","react":"3b2NM","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./../css/App.css":"6v4ok","./Navigation":"2qm1a","./Slider":"3qMMZ","react-bootstrap/Container":"3Mt3t","react-bootstrap/Row":"3fzwD","react-bootstrap/Col":"2D0r8","./Jumbotron":"2EiTq","./About":"1v2QX","./AboutImage":"70NBT","./AboutMap":"5bt9K"}],"6v4ok":[function() {},{}],"2qm1a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _nav = require("react-bootstrap/Nav");
@@ -27923,18 +27952,11 @@ function About() {
             lineNumber: 3
         },
         __self: this
-    }, /*#__PURE__*/ React.createElement("h3", {
-        className: "about-title mb-4",
-        __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\About.js",
-            lineNumber: 4
-        },
-        __self: this
-    }, "About"), /*#__PURE__*/ React.createElement("p", {
+    }, /*#__PURE__*/ React.createElement("p", {
         className: "about-body",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\About.js",
-            lineNumber: 5
+            lineNumber: 4
         },
         __self: this
     }, "Sonnet Farm uses an Integrated Farming System, allowing crops and livestock to help sustain one another resulting in a more organic and ecological way of production.")));
@@ -27955,7 +27977,7 @@ var _fernPng = require("url:../images/fern.png");
 var _fernPngDefault = parcelHelpers.interopDefault(_fernPng);
 function AboutImage() {
     return(/*#__PURE__*/ React.createElement("div", {
-        className: "about-image",
+        className: "about-image d-flex flex-column justify-content-center d-lg-block",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\AboutImage.js",
             lineNumber: 7
@@ -28070,7 +28092,7 @@ exports.default = _default;
 },{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","prop-types":"4dfy5","./ThemeProvider":"4rz1S","react/jsx-runtime":"7jBZW"}],"4DllL":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "fern.57e7590d.png";
 
-},{"./bundle-url":"3seVR"}],"3SAUf":[function(require,module,exports) {
+},{"./bundle-url":"3seVR"}],"5bt9K":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const mapouterStyle = {
@@ -28085,12 +28107,12 @@ const gmap_canvasStyle = {
     height: "100%",
     width: "100%"
 };
-function ContactMap() {
+function AboutMap() {
     return(/*#__PURE__*/ React.createElement("div", {
         className: "mapouter",
         style: mapouterStyle,
         __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutMap.js",
             lineNumber: 17
         },
         __self: this
@@ -28098,7 +28120,7 @@ function ContactMap() {
         className: "gmap_canvas",
         style: gmap_canvasStyle,
         __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutMap.js",
             lineNumber: 18
         },
         __self: this
@@ -28112,29 +28134,29 @@ function ContactMap() {
         marginHeight: "0",
         marginWidth: "0",
         __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutMap.js",
             lineNumber: 19
         },
         __self: this
     }), /*#__PURE__*/ React.createElement("br", {
         __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutMap.js",
             lineNumber: 29
         },
         __self: this
     }), /*#__PURE__*/ React.createElement("a", {
         href: "https://www.embedgooglemap.net",
         __source: {
-            fileName: "D:\\sonnet-farm\\src\\js\\ContactMap.js",
+            fileName: "D:\\sonnet-farm\\src\\js\\AboutMap.js",
             lineNumber: 30
         },
         __self: this
     }))));
 }
-_c = ContactMap;
-exports.default = ContactMap;
+_c = AboutMap;
+exports.default = AboutMap;
 var _c;
-$RefreshReg$(_c, "ContactMap");
+$RefreshReg$(_c, "AboutMap");
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
 

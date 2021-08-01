@@ -12,7 +12,7 @@ const gmap_canvasStyle = {
 	width: "100%",
 };
 
-function ContactMap() {
+function AboutMap() {
 	return (
 		<div className="mapouter" style={mapouterStyle}>
 			<div className="gmap_canvas" style={gmap_canvasStyle}>
@@ -33,4 +33,4 @@ function ContactMap() {
 	);
 }
 
-export default ContactMap;
+export default AboutMap;

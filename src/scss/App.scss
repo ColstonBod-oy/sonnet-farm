@@ -2,7 +2,7 @@
 
 .App {
 	min-height: 100vh;
-	background-color: #212529;
+	background-color: #282c34;
 }
 
 .navbar-brand {
@@ -72,9 +72,12 @@
 		font-family: ubuntu-mono, monospace;
 		font-weight: 700;
 		font-style: normal;
+		color: rgba($yellow, 0.75);
 	}
 
 	&-body {
+		text-align: justify;
+		text-justify: inter-word;
 		text-indent: 2em;
 		font-size: 1rem;
 		font-family: ubuntu-mono, monospace;
@@ -82,9 +85,24 @@
 		font-style: normal;
 	}
 
+	&-map {
+		min-height: 50vh;
+
+		&-caption {
+			margin-top: 1.33333333333em;
+			margin-bottom: 0;
+			text-align: center;
+			font-size: 0.75rem;
+			font-family: noto-sans-display, sans-serif;
+			font-weight: 300;
+			font-style: normal;
+			color: #eeeeee;
+		}
+	}
+
 	&-image {
+		min-height: 50vh;
 		font-size: 1rem;
-		margin-bottom: 2.7em;
 		color: rgba($yellow, 0.75);
 
 		&-caption {

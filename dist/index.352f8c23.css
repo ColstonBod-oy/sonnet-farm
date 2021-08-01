@@ -2348,7 +2348,7 @@ progress {
 
 .App {
   min-height: 100vh;
-  background-color: #212529;
+  background-color: #282c34;
 }
 
 .navbar-brand-text {
@@ -2415,9 +2415,12 @@ progress {
   font-family: ubuntu-mono, monospace;
   font-weight: 700;
   font-style: normal;
+  color: rgba(238, 238, 0, 0.75);
 }
 
 .about-body {
+  text-align: justify;
+  text-justify: inter-word;
   text-indent: 2em;
   font-size: 1rem;
   font-family: ubuntu-mono, monospace;
@@ -2425,9 +2428,24 @@ progress {
   font-style: normal;
 }
 
+.about-map {
+  min-height: 50vh;
+}
+
+.about-map-caption {
+  margin-top: 1.3333333333em;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: noto-sans-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #eeeeee;
+}
+
 .about-image {
+  min-height: 50vh;
   font-size: 1rem;
-  margin-bottom: 2.7em;
   color: rgba(238, 238, 0, 0.75);
 }
 
