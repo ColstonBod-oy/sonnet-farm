@@ -21,7 +21,7 @@ function AboutMap() {
 					height="100%"
 					id="gmap_canvas"
 					src="https://maps.google.com/maps?q=amocao%20store,%20Sablan,%20Benguet&t=k&z=13&ie=UTF8&iwloc=&output=embed"
-					frameborder="0"
+					frameBorder="0"
 					scrolling="no"
 					marginHeight="0"
 					marginWidth="0"

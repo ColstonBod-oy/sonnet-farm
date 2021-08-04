@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,6 +8,7 @@ import Jumbotron from "./Jumbotron";
 import About from "./About";
 import AboutMap from "./AboutMap";
 import AboutImage from "./AboutImage";
+import Footer from "./Footer";
 
 function App() {
 	return (
@@ -39,6 +39,9 @@ function App() {
 					<Col lg={6} className="d-lg-flex align-items-center">
 						<AboutImage />
 					</Col>
+				</Row>
+				<Row>
+					<Footer />
 				</Row>
 			</Container>
 		</div>

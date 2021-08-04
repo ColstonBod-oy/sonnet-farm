@@ -36,7 +36,6 @@
 .jumbotron {
 	font-size: 1.5rem;
 	padding: 2em 1em;
-	margin-top: 1em;
 	margin-bottom: 1.8em;
 	background-color: #e9ecef;
 	border-radius: 0.3rem;
@@ -116,5 +115,23 @@
 			font-size: 0.8rem;
 			margin-left: 1em;
 		}
+	}
+}
+
+.footer {
+	color: rgba($yellow, 0.55);
+}
+
+.bi-telephone {
+	margin-right: 1rem;
+
+	&:hover {
+		color: #eeee00;
+	}
+}
+
+.bi-envelope {
+	&:hover {
+		color: #eeee00;
 	}
 }

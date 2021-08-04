@@ -2378,7 +2378,6 @@ progress {
 .jumbotron {
   font-size: 1.5rem;
   padding: 2em 1em;
-  margin-top: 1em;
   margin-bottom: 1.8em;
   background-color: #e9ecef;
   border-radius: 0.3rem;
@@ -2459,6 +2458,22 @@ progress {
 .about-image-button {
   font-size: 0.8rem;
   margin-left: 1em;
+}
+
+.footer {
+  color: rgba(238, 238, 0, 0.55);
+}
+
+.bi-telephone {
+  margin-right: 1rem;
+}
+
+.bi-telephone:hover {
+  color: #eeee00;
+}
+
+.bi-envelope:hover {
+  color: #eeee00;
 }
 
 

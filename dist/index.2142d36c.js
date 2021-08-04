@@ -21994,16 +21994,8 @@ function registerExportsForReactRefresh(module) {
 }
 
 },{"react-refresh/runtime":"592mh"}],"1Ucmn":[function(require,module,exports) {
-var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-helpers.prelude(module);
-
-try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
 var _container = require("react-bootstrap/Container");
 var _containerDefault = parcelHelpers.interopDefault(_container);
 var _row = require("react-bootstrap/Row");
@@ -22023,91 +22015,93 @@ var _aboutMap = require("./AboutMap");
 var _aboutMapDefault = parcelHelpers.interopDefault(_aboutMap);
 var _aboutImage = require("./AboutImage");
 var _aboutImageDefault = parcelHelpers.interopDefault(_aboutImage);
+var _footer = require("./Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 function App() {
-    return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
+    return(/*#__PURE__*/ React.createElement("div", {
         className: "App",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 15
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_navigationDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_navigationDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 16
         },
         __self: this
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_containerDefault.default, {
+    }), /*#__PURE__*/ React.createElement(_containerDefault.default, {
         fluid: true,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 17
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_rowDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 18
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_sliderDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_sliderDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 19
         },
         __self: this
-    })), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+    })), /*#__PURE__*/ React.createElement(_rowDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 21
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_jumbotronDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_jumbotronDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 22
         },
         __self: this
-    })), /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+    })), /*#__PURE__*/ React.createElement(_rowDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 24
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+    }, /*#__PURE__*/ React.createElement("h3", {
         className: "about-title mb-4",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 25
         },
         __self: this
-    }, "About"), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+    }, "About"), /*#__PURE__*/ React.createElement(_colDefault.default, {
         lg: 6,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 26
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_rowDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_rowDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 27
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_colDefault.default, {
         xs: 12,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 28
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_aboutDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 29
         },
         __self: this
-    })), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+    })), /*#__PURE__*/ React.createElement(_colDefault.default, {
         xs: 12,
         className: "about-map",
         __source: {
@@ -22115,20 +22109,20 @@ function App() {
             lineNumber: 31
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutMapDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_aboutMapDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 32
         },
         __self: this
-    }))), /*#__PURE__*/ _reactDefault.default.createElement("p", {
+    }))), /*#__PURE__*/ React.createElement("p", {
         className: "about-map-caption",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 35
         },
         __self: this
-    }, "Sonnet Farm is located near \"Amocao Store, Sablan, Benguet\"")), /*#__PURE__*/ _reactDefault.default.createElement(_colDefault.default, {
+    }, "Sonnet Farm is located near \"Amocao Store, Sablan, Benguet\"")), /*#__PURE__*/ React.createElement(_colDefault.default, {
         lg: 6,
         className: "d-lg-flex align-items-center",
         __source: {
@@ -22136,25 +22130,32 @@ function App() {
             lineNumber: 39
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_aboutImageDefault.default, {
+    }, /*#__PURE__*/ React.createElement(_aboutImageDefault.default, {
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\App.js",
             lineNumber: 40
         },
         __self: this
-    }))))));
+    }))), /*#__PURE__*/ React.createElement(_rowDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 43
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement(_footerDefault.default, {
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\App.js",
+            lineNumber: 44
+        },
+        __self: this
+    })))));
 }
 _c = App;
 exports.default = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  helpers.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR","react":"3b2NM","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./../css/App.css":"6v4ok","./Navigation":"2qm1a","./Slider":"3qMMZ","react-bootstrap/Container":"3Mt3t","react-bootstrap/Row":"3fzwD","react-bootstrap/Col":"2D0r8","./Jumbotron":"2EiTq","./About":"1v2QX","./AboutImage":"70NBT","./AboutMap":"5bt9K"}],"6v4ok":[function() {},{}],"2qm1a":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR","./../css/App.css":"6v4ok","./Navigation":"2qm1a","./Slider":"3qMMZ","react-bootstrap/Container":"3Mt3t","react-bootstrap/Row":"3fzwD","react-bootstrap/Col":"2D0r8","./Jumbotron":"2EiTq","./About":"1v2QX","./AboutImage":"70NBT","./AboutMap":"5bt9K","./Footer":"49HzC"}],"6v4ok":[function() {},{}],"2qm1a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _nav = require("react-bootstrap/Nav");
@@ -22269,7 +22270,7 @@ exports.default = Navigation;
 var _c;
 $RefreshReg$(_c, "Navigation");
 
-},{"react-bootstrap/Navbar":"3qLFd","react-bootstrap/Container":"3Mt3t","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","url:../logo.svg":"J8evo","react-bootstrap/Nav":"3T3v1"}],"3qLFd":[function(require,module,exports) {
+},{"react-bootstrap/Navbar":"3qLFd","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","url:../logo.svg":"J8evo","react-bootstrap/Nav":"3T3v1","react-bootstrap/Container":"3Mt3t"}],"3qLFd":[function(require,module,exports) {
 "use strict";
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 exports.__esModule = true;
@@ -26070,62 +26071,7 @@ exports.makeEventKey = makeEventKey;
 var _default = SelectableContext;
 exports.default = _default;
 
-},{"react":"3b2NM"}],"3Mt3t":[function(require,module,exports) {
-"use strict";
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-exports.__esModule = true;
-exports.default = void 0;
-var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
-var _ThemeProvider = require("./ThemeProvider");
-var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) {
-    if (typeof WeakMap !== "function") return null;
-    var cacheBabelInterop = new WeakMap();
-    var cacheNodeInterop = new WeakMap();
-    return (_getRequireWildcardCache = function(nodeInterop1) {
-        return nodeInterop1 ? cacheNodeInterop : cacheBabelInterop;
-    })(nodeInterop);
-}
-function _interopRequireWildcard(obj, nodeInterop) {
-    if (!nodeInterop && obj && obj.__esModule) return obj;
-    if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
-        default: obj
-    };
-    var cache = _getRequireWildcardCache(nodeInterop);
-    if (cache && cache.has(obj)) return cache.get(obj);
-    var newObj = {
-    };
-    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
-        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
-        else newObj[key] = obj[key];
-    }
-    newObj.default = obj;
-    if (cache) cache.set(obj, newObj);
-    return newObj;
-}
-const defaultProps = {
-    fluid: false
-};
-const Container = /*#__PURE__*/ React.forwardRef(({ bsPrefix , fluid , // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-as: Component = 'div' , className , ...props }, ref)=>{
-    const prefix = _ThemeProvider.useBootstrapPrefix(bsPrefix, 'container');
-    const suffix = typeof fluid === 'string' ? `-${fluid}` : '-fluid';
-    return(/*#__PURE__*/ _jsxRuntime.jsx(Component, {
-        ref: ref,
-        ...props,
-        className: _classnames.default(className, fluid ? `${prefix}${suffix}` : prefix)
-    }));
-});
-Container.displayName = 'Container';
-Container.defaultProps = defaultProps;
-var _default = Container;
-exports.default = _default;
-module.exports = exports.default;
-
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","./ThemeProvider":"4rz1S","react/jsx-runtime":"7jBZW"}],"J8evo":[function(require,module,exports) {
+},{"react":"3b2NM"}],"J8evo":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "logo.257fb52e.svg";
 
 },{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
@@ -26872,7 +26818,62 @@ var _default = context;
 exports.default = _default;
 module.exports = exports.default;
 
-},{"react":"3b2NM"}],"3qMMZ":[function(require,module,exports) {
+},{"react":"3b2NM"}],"3Mt3t":[function(require,module,exports) {
+"use strict";
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+exports.__esModule = true;
+exports.default = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var React = _interopRequireWildcard(require("react"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(nodeInterop) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function(nodeInterop1) {
+        return nodeInterop1 ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
+        default: obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {
+    };
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj.default = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+const defaultProps = {
+    fluid: false
+};
+const Container = /*#__PURE__*/ React.forwardRef(({ bsPrefix , fluid , // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = 'div' , className , ...props }, ref)=>{
+    const prefix = _ThemeProvider.useBootstrapPrefix(bsPrefix, 'container');
+    const suffix = typeof fluid === 'string' ? `-${fluid}` : '-fluid';
+    return(/*#__PURE__*/ _jsxRuntime.jsx(Component, {
+        ref: ref,
+        ...props,
+        className: _classnames.default(className, fluid ? `${prefix}${suffix}` : prefix)
+    }));
+});
+Container.displayName = 'Container';
+Container.defaultProps = defaultProps;
+var _default = Container;
+exports.default = _default;
+module.exports = exports.default;
+
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","classnames":"5aJRc","react":"3b2NM","./ThemeProvider":"4rz1S","react/jsx-runtime":"7jBZW"}],"3qMMZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _carousel = require("react-bootstrap/Carousel");
@@ -27853,9 +27854,8 @@ function Jumbotron() {
         width: "16",
         height: "16",
         fill: "currentColor",
-        class: "bi bi-facebook",
+        className: "bi bi-facebook me-2",
         viewBox: "0 0 16 16",
-        className: "me-2",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Jumbotron.js",
             lineNumber: 29
@@ -27865,7 +27865,7 @@ function Jumbotron() {
         d: "M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z",
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\Jumbotron.js",
-            lineNumber: 38
+            lineNumber: 37
         },
         __self: this
     })), "Our Facebook Page")));
@@ -27987,6 +27987,7 @@ function AboutImage() {
         src: _fernPngDefault.default,
         fluid: true,
         rounded: true,
+        thumbnail: true,
         __source: {
             fileName: "D:\\sonnet-farm\\src\\js\\AboutImage.js",
             lineNumber: 8
@@ -28129,7 +28130,7 @@ function AboutMap() {
         height: "100%",
         id: "gmap_canvas",
         src: "https://maps.google.com/maps?q=amocao%20store,%20Sablan,%20Benguet&t=k&z=13&ie=UTF8&iwloc=&output=embed",
-        frameborder: "0",
+        frameBorder: "0",
         scrolling: "no",
         marginHeight: "0",
         marginWidth: "0",
@@ -28158,6 +28159,83 @@ exports.default = AboutMap;
 var _c;
 $RefreshReg$(_c, "AboutMap");
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"49HzC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _container = require("react-bootstrap/Container");
+var _containerDefault = parcelHelpers.interopDefault(_container);
+function Footer() {
+    return(/*#__PURE__*/ React.createElement(_containerDefault.default, {
+        className: "py-3 bg-dark",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Footer.js",
+            lineNumber: 5
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement("div", {
+        className: "footer d-flex justify-content-center",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Footer.js",
+            lineNumber: 6
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "16",
+        height: "16",
+        fill: "currentColor",
+        className: "bi bi-telephone",
+        viewBox: "0 0 16 16",
+        onMouseEnter: ()=>{
+            document.querySelector(".bi-telephone path").setAttribute("d", "M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z");
+        },
+        onMouseLeave: ()=>{
+            document.querySelector(".bi-telephone path").setAttribute("d", "M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z");
+        },
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Footer.js",
+            lineNumber: 7
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement("path", {
+        d: "M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Footer.js",
+            lineNumber: 31
+        },
+        __self: this
+    })), /*#__PURE__*/ React.createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "16",
+        height: "16",
+        fill: "currentColor",
+        className: "bi bi-envelope",
+        viewBox: "0 0 16 16",
+        onMouseEnter: ()=>{
+            document.querySelector(".bi-envelope path").setAttribute("d", "M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z");
+        },
+        onMouseLeave: ()=>{
+            document.querySelector(".bi-envelope path").setAttribute("d", "M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z");
+        },
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Footer.js",
+            lineNumber: 33
+        },
+        __self: this
+    }, /*#__PURE__*/ React.createElement("path", {
+        d: "M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z",
+        __source: {
+            fileName: "D:\\sonnet-farm\\src\\js\\Footer.js",
+            lineNumber: 57
+        },
+        __self: this
+    })))));
+}
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+},{"react-bootstrap/Container":"3Mt3t","@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"rbTpg":[function() {},{}]},["1j6wU","5tOvd","3L8AI"], "3L8AI", "parcelRequired3e8")
 
 //# sourceMappingURL=index.2142d36c.js.map
